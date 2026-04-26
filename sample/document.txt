@@ -1,0 +1,3 @@
+CONFIDENTIAL
+
+Project Alpha requires strict access control. Only personnel with Level 3 clearance may access the server room. Ensure all badge logs are audited weekly.
