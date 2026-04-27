@@ -2,6 +2,10 @@
 
 A multi-agent AI system for analyzing documents, extracting key information, and identifying potential risks. Upload legal contracts, business documents, or any text files to receive comprehensive analysis including summaries, risk flags, and decision points.
 
+## Screenshot
+
+![DocumentIntelligenceWorkspace](DocumentIntelligenceWorkspace.png)
+
 ## Features
 
 - **Document Parsing**: Supports PDF, DOCX, and TXT file formats
@@ -118,7 +122,7 @@ Upload Document → Extract Text → Store in Memory → Run Agents
 
 ### Environment Variables (Optional)
 
-Create a `.env` file in the project root:
+Copy `.env.example` to `.env` in the project root:
 
 ```env
 OLLAMA_MODEL=llama2
@@ -155,7 +159,7 @@ soai-17-doc-intelligence/
 ├── uploads/                      # Temporary file storage (auto-created)
 ├── orchestrator.py               # Agent workflow coordination
 ├── requirements.txt              # Python dependencies
-├── .env                          # Environment variables (optional)
+├── .env.example                  # Safe environment template
 └── README.md                    # This file
 ```
 
